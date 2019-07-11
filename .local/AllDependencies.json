@@ -225,6 +225,43 @@
           "build/_._": {}
         }
       },
+      "UiPath.ComputerVision.Activities/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "UiPath.OCR.Contracts": "1.0.0",
+          "UiPath.UIAutomation.Activities": "19.5.0",
+          "UiPath.Vision": "1.6.0"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.CV.Activities.Design.dll": {},
+          "lib/net461/UiPath.CV.Activities.dll": {},
+          "lib/net461/UiPath.CV.dll": {}
+        },
+        "resource": {
+          "lib/net461/fr/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.CV.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.CV.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ru/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.CV.Activities.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
       "UiPath.Credentials.Activities/1.1.6479.13204": {
         "type": "package",
         "dependencies": {
@@ -812,6 +849,26 @@
         "uipath.nuspec"
       ]
     },
+    "UiPath.ComputerVision.Activities/1.1.0": {
+      "sha512": "BmcwJubzYnTogJ49t0vhZPx47h1BJygm0z2XJTMlXL4yLTg5mc15Nch3eTRfb9xPtvdwJlLBkP1f8FPcPTwGZA==",
+      "type": "package",
+      "path": "uipath.computervision.activities/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.CV.Activities.Design.dll",
+        "lib/net461/UiPath.CV.Activities.dll",
+        "lib/net461/UiPath.CV.dll",
+        "lib/net461/fr/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.CV.Activities.resources.dll",
+        "lib/net461/ja/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.CV.Activities.resources.dll",
+        "lib/net461/ru/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.CV.Activities.resources.dll",
+        "uipath.computervision.activities.1.1.0.nupkg.sha512",
+        "uipath.computervision.activities.nuspec"
+      ]
+    },
     "UiPath.Credentials.Activities/1.1.6479.13204": {
       "sha512": "2C7e17Lk1G6QenZQwA5q0DETGdAb9K34p6SqPcAOdHHyr+BtYSWLWhXn+zNlMF8ZCr51pHCiBPNp33nok2B3Qw==",
       "type": "package",
@@ -1057,6 +1114,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "UiPath.ComputerVision.Activities >= 1.1.0 <= 1.1.0",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
       "UiPath.Excel.Activities >= 2.6.0 <= 2.6.0",
       "UiPath.Mail.Activities >= 1.5.0 <= 1.5.0",
@@ -1078,6 +1136,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "UiPath.ComputerVision.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.0, 1.1.0]"
+          },
           "UiPath.Credentials.Activities": {
             "include": "Runtime",
             "target": "Package",

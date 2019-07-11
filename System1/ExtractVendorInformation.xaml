@@ -64,7 +64,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'push button'" sap:VirtualizedContainerService.HintSize="314.4,107.2" sap2010:WorkflowViewState.IdRef="GetValue_1">
       <ui:GetValue.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="cd54ca88dfe58fec2b7abff535be8b57" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;&lt;webctrl idx='1' tag='P' /&gt;" WaitForReady="INTERACTIVE" />
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="cd54ca88dfe58fec2b7abff535be8b57" Selector="&lt;html title='ACME System 1 - Work Items' /&gt;&#xD;&#xA;&lt;webctrl idx='1' tag='P' /&gt;&#xD;&#xA;" WaitForReady="INTERACTIVE" />
       </ui:GetValue.Target>
       <ui:GetValue.Value>
         <OutArgument x:TypeArguments="ui:GenericValue">[vendorinfo]</OutArgument>

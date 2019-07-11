@@ -3,6 +3,7 @@
   "description": "Performer Process under Generate Yearly Report for vendor using REFramework",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.ComputerVision.Activities": "[1.1.0]",
     "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.6.0]",
     "UiPath.Mail.Activities": "[1.5.0]",
@@ -21,6 +22,7 @@
     ]
   },
   "projectType": "Workflow",
+  "expressionLanguage": "VisualBasic",
   "libraryOptions": {
     "includeOriginalXaml": false,
     "privateWorkflows": []

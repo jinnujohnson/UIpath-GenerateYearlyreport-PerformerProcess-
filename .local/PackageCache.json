@@ -20,10 +20,10 @@
         "C:\\Users\\sai\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "C:\\Users\\sai\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\sai\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\sai\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\sai\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\sai\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\sai\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\sai\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\sai\\.nuget\\packages\\uipath.excel.activities/2.6.0\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\sai\\.nuget\\packages\\uipath.excel.activities/2.6.0\\lib/net461/UiPath.Excel.Activities.dll",
@@ -78,10 +78,10 @@
       },
       "Assemblies": [
         "C:\\Users\\sai\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\sai\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -107,11 +107,58 @@
         "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
         "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.dll",
         "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.ComputerVision.Activities",
+        "Version": "1.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\sai\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath/19.5.7079.28746\\lib/UiPath.Interop.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.computervision.activities/1.1.0\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.computervision.activities/1.1.0\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.computervision.activities/1.1.0\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.ocr.contracts/1.0.0\\lib/net45/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.uiautomation.activities/19.5.0\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.AbbyyCloud.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.AbbyyFRE11.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.AbbyyFRE12.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.Core.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\sai\\.nuget\\packages\\uipath.vision/1.6.0\\lib/net452/UiPath.Vision.dll"
       ]
     }
   ],
@@ -221,6 +268,28 @@
       "Id": "UiPath",
       "Version": "19.5.7079.28746",
       "Dependencies": []
+    },
+    "UiPath.ComputerVision.Activities": {
+      "Id": "UiPath.ComputerVision.Activities",
+      "Version": "1.1.0",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.UIAutomation.Activities",
+          "Item2": "[19.5.0, )"
+        },
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[1.6.0, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[1.0.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        }
+      ]
     },
     "UiPath.Credentials.Activities": {
       "Id": "UiPath.Credentials.Activities",
